@@ -3,6 +3,8 @@ package org.smart4j.framework;
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.ArrayUtils;
 import org.smart4j.framework.annotation.Action;
+import org.smart4j.framework.entity.Handler;
+import org.smart4j.framework.entity.Request;
 
 import java.lang.reflect.Method;
 import java.util.HashMap;

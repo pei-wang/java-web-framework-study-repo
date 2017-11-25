@@ -1,4 +1,4 @@
-package org.smart4j.framework;
+package org.smart4j.framework.entity;
 
 import java.lang.reflect.Method;
 

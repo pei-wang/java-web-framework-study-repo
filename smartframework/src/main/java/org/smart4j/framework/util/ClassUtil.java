@@ -34,6 +34,10 @@ public class ClassUtil {
         return cls;
     }
 
+    public static Class<?> loadClass(String className) {
+        return loadClass(className, false);
+    }
+
     public static Set<Class<?>> getClassSet(String packageName) {
         Set<Class<?>> classSet = new HashSet<Class<?>>();
         try {
